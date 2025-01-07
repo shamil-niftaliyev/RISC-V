@@ -6,9 +6,11 @@ RV32I CORE
 - The core is divided into two main sub-modules:
 1. Control Unit (Main Decoder + ALU Decoder)
 2. Datapath (Register File + ALU + Immediate Extender + Program Counter Logic, etc.)
+
 ✅Physical Implementation:
 - To get an initial sense of area overhead, I’m currently using Tower-Semiconductor’s 180nm technology (4 metal layers). Later, I plan to switch to a more advanced technology node with additional metal layers, depending on available MPW programs.
 - Current area: 0.6mm² (to be optimized further).
+
 ✅EDA Tools:
 - Verification: Xcelium
 - Synthesis: Genus
