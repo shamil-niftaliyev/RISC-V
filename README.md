@@ -4,7 +4,6 @@ RV32I CORE
 - The RTL is implemented in SystemVerilog as a 5 stage pipeline (Fetch, Decode, Execute, Memory, Writeback)
 - Contains a Hazard Unit to handle data hazards and control hazards
 - Supported instruction types include: R, S, I, J, and B.
-- The core is divided into two main sub-modules:
 
 ✅EDA Tools:
 - Verification: Xcelium
