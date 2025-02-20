@@ -1,4 +1,4 @@
-## Pseudo assembly task: Find Log2(64) using beq loop
+## Pseudo assembly task
 start:        addi x2, x0, 2               # Base
               addi x3, x0, 64              # Argument
               addi x4, x0, 0               # Temporary argument
